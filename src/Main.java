@@ -15,7 +15,7 @@ public class Main {
         String num1 = String.valueOf((arrArg[0]));
         String num2 = String.valueOf((arrArg[2]));
         String operation = arrArg[1];
-        if (arrArg.length > 3) { // ИСКЛЮЧЕНИЕ т.к. формат математической операции не удовлетворяет заданию - два операнда и один оператор (+, -, /, *)
+        if (arrArg.length > 3) { // ИСКЛЮЧЕНИЕ т.к. формат математической операции не удовлетворяет заданию - два операнда и один оператор (+, -, /, *))
             try {
                 throw new IOException();
             } catch (IOException e) {
